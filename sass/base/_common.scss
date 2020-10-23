@@ -1,0 +1,30 @@
+/* Отменяем подчеркивание у ссылки */
+a {
+  text-decoration: none;
+}
+
+/* Убираем маркеры */
+li {
+  list-style-type: none;
+}
+
+/* Убираем италик с сылок в адресах */
+.address {
+  font-style: normal;
+  display: flex;
+  margin-left: auto;
+}
+
+.list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.padding-bottom {
+  padding-bottom: 94px;
+}
+
+img {
+  display: block;
+}

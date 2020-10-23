@@ -1,0 +1,103 @@
+/* ================== HEADER ======================*/
+.container-flex-header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  /* justify-content: center; */
+  border-bottom: 1px solid #ececec;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.header-menu {
+  display: flex;
+  margin-left: 93px;
+}
+
+.header-menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.accent {
+  color: var(--blue);
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--black-logo);
+}
+
+.header-menu-link {
+  display: block;
+  padding-bottom: 33px;
+  padding-top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--black);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--blue);
+}
+
+.address .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address .link + .link {
+  margin-left: 50px;
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--blue);
+}
+
+.active {
+  color: var(--blue);
+}
+
+.envelope-svg {
+  margin-right: 10px;
+  fill: currentcolor;
+  align-items: center;
+}
+
+.link-color-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-item .active::after {
+  content: '';
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+}
+
+.header-menu-item {
+  position: relative;
+}
