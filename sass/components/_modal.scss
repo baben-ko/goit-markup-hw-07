@@ -16,7 +16,7 @@
   position: relative;
   width: 528px;
   height: 581px;
-  background-color: #fff;
+  background-color: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
@@ -35,14 +35,14 @@
   right: 8px;
   width: 30px;
   height: 30px;
-  background-color: #ffffff;
+  background-color: $white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
 }
 
 .close-btn:hover > .svg-close {
-  fill: var(--blue);
+  fill: $blue;
 }
 
 .is-hidden {
@@ -53,13 +53,13 @@
 /* ================== MODAL ======================*/
 
 .contact-form__input:focus + .modal-form-svg-icon {
-  fill: var(--blue);
+  fill: $blue;
 }
 
 .contact-form__input:focus,
 .contact-form__message:focus {
   outline: none;
-  border: 1px solid var(--blue);
+  border: 1px solid $blue;
   border-radius: 4px;
 }
 
@@ -73,7 +73,7 @@
   content: '';
   width: 16px;
   height: 15px;
-  border: 2px solid #212121;
+  border: 2px solid $black;
   display: inline-block;
   border-radius: 4px;
   margin-right: 8px;
@@ -95,11 +95,11 @@
   background-size: contain;
   background-origin: border-box;
   border-color: transparent;
-  background-color: var(--blue);
+  background-color: $blue;
 }
 
 .policy-text a {
-  color: var(--blue);
+  color: $blue;
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }
@@ -118,7 +118,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: $gray;
   display: inline-block;
   margin: 0px;
   /* margin-bottom: 30px; */
@@ -136,7 +136,7 @@
   line-height: 1.166;
   letter-spacing: 0.01em;
 
-  color: #757575;
+  color: $gray;
 }
 
 .label-modal-text {
@@ -150,7 +150,7 @@
   line-height: 1.166;
   letter-spacing: 0.01em;
 
-  color: #757575;
+  color: $gray;
 }
 
 .modal-head {
@@ -162,12 +162,12 @@
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: $black;
   margin-bottom: 12px;
 }
 
 .label-modal {
-  color: #757575;
+  color: $gray;
 
   display: block;
   margin-bottom: 10px;
@@ -202,7 +202,7 @@ input {
   width: 200px;
   height: 50px;
 
-  background: #2196f3;
+  background: $blue;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -217,7 +217,7 @@ input {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: $white;
 }
 
 .contact-form__message {

@@ -23,14 +23,14 @@
 }
 
 .accent {
-  color: var(--blue);
+  color: $blue;
 }
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--black-logo);
+  color: $black-logo;
 }
 
 .header-menu-link {
@@ -42,14 +42,14 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--black);
+  color: $black;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: var(--blue);
+  color: $blue;
 }
 
 .address .link {
@@ -57,7 +57,7 @@
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: var(--gray);
+  color: $gray;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -68,11 +68,11 @@
 
 .address .link:hover,
 .address .link:focus {
-  color: var(--blue);
+  color: $blue;
 }
 
 .active {
-  color: var(--blue);
+  color: $blue;
 }
 
 .envelope-svg {
@@ -94,7 +94,7 @@
   bottom: 0;
   left: 0;
   height: 4px;
-  background: #2196f3;
+  background: $blue;
   border-radius: 2px;
 }
 

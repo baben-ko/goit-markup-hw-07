@@ -5,7 +5,7 @@
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--black);
+  color: $black;
   text-align: center;
   margin-top: 0px;
 }
@@ -42,6 +42,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white;
   margin: 0 auto;
 }

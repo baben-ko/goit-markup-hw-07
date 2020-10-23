@@ -8,7 +8,7 @@
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--black);
+  color: $black;
   text-align: center;
   margin-top: 0px;
   padding-top: 94px;
@@ -19,7 +19,7 @@
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--black);
+  color: $black;
   text-align: center;
   margin-bottom: 10px;
   margin-top: 30px;
@@ -30,13 +30,13 @@
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--gray);
+  color: $gray;
   margin-bottom: 16px;
   margin-top: 0px;
   text-align: center;
 }
 .list .list-team {
-  background: #ffffff;
+  background: $white;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -70,7 +70,7 @@
 
 .social-list-link:hover .social-svg,
 .social-list-link:focus .social-svg {
-  fill: var(--white);
+  fill: $white;
 }
 
 .list-team {
