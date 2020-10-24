@@ -28,3 +28,9 @@ li {
 img {
   display: block;
 }
+
+/* основной шрифт */
+body {
+  font-family: $main-font;
+  font-style: normal;
+}
