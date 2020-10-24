@@ -59,29 +59,29 @@
     <!--FEATURES-->
     <section class="features-section">
       <div class="container container-features">
-        <ul class="list-features list-footer">
-          <li class="feauters-list">
+        <ul class="features-list footer-list">
+          <li class="features-item">
             <h2 class="features-title">Внимание к деталям</h2>
             <p class="features-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li class="feauters-list">
+          <li class="features-item">
             <h2 class="features-title">Пунктуальность</h2>
             <p class="features-text">
               Задача организации, в особенности же рамки и место обучения
               кадров влечет за собой.
             </p>
           </li>
-          <li class="feauters-list">
+          <li class="features-item">
             <h2 class="features-title">Планирование</h2>
             <p class="features-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li class="feauters-list">
+          <li class="features-item">
             <h2 class="features-title">Современные технологии</h2>
             <p class="features-text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -277,110 +277,75 @@
   </section>
   <!--FOOTER-->
   <footer class="footer">
-    <div class="container container-footer">
-
-
-      <div class="left-footer">
-
-        <h2 class="logo-footer">
-          <a class="header-logo-footer" href="./index.html" aria-label="логотип вэбстудии"><span
+    <div class="container footer-container">
+      <div class="footer-left">
+        <h2 class="footer-logo">
+          <a class="footer-header-logo" href="./index.html" aria-label="логотип вэбстудии"><span
               class="accent">Web</span>Studio</a>
         </h2>
         <address>
-          <ul class="list-footer">
-            <li class="address-footer">
+          <ul class="footer-list">
+            <li class="footer-address">
               <a class="link-map" href="https://goo.gl/maps/VfrCW1aRoGkhf7tG8" target="_blank">г. Киев, пр-т Леси
                 Украинки, 26</a>
             </li>
-            <li class="address-footer">
+            <li class="footer-address">
               <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="address-footer">
+            <li class="footer-address">
               <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
-
-
       </div>
-
-      <div class="right-footer">
+      <div class="footer-right">
         <h2>присоединяйтесь</h2>
-        <ul class="social-list-footer">
-          <li class="li-link"><a class="social-list-link-footer" href="#"><svg class="social-svg" width="20px"
-                height="20px">
+        <ul class="footer-list-social">
+          <li class="footer-item-social"><a class="social-list-link-footer" href="#"><svg class="social-svg"
+                width="20px" height="20px">
                 <use href="./images/sprite.svg#instagram"></use>
               </svg></a></li>
-          <li class="li-link"><a class="social-list-link-footer" href="#"><svg class="social-svg" width="20px"
-                height="20px">
+          <li class="footer-item-social"><a class="social-list-link-footer" href="#"><svg class="social-svg"
+                width="20px" height="20px">
                 <use href="./images/sprite.svg#twitter"></use>
               </svg></a></li>
-          <li class="li-link"><a class="social-list-link-footer" href="#"><svg class="social-svg" width="20px"
-                height="20px">
+          <li class="footer-item-social"><a class="social-list-link-footer" href="#"><svg class="social-svg"
+                width="20px" height="20px">
                 <use href="./images/sprite.svg#facebook"></use>
               </svg></a></li>
-          <li class="li-link"><a class="social-list-link-footer" href="#"><svg class="social-svg" width="20px"
-                height="20px">
+          <li class="footer-item-social"><a class="social-list-link-footer" href="#"><svg class="social-svg"
+                width="20px" height="20px">
                 <use href="./images/sprite.svg#linkedin"></use>
               </svg></a></li>
         </ul>
       </div>
-
-      <div class="right-footer-form">
+      <div class="footer-right-form">
         <h2>Подпишитесь на рассылку</h2>
-        <form class="form-footer" action="#">
-
+        <form class="footer-form" action="#">
           <input class="footer-form__input" type="email" name="user-email" placeholder="E-mail">
-
-          <button class="button-footer__submit" type="submit"> <span class="text-button-footer">Подписаться</span>
-
-            <svg class="svg-icon-footer" width="24px" height="24px">
+          <button class="button-footer__submit" type="submit"> <span class="footer-text-button">Подписаться</span>
+            <svg class="footer-svg-icon" width="24px" height="24px">
               <use href="./images/sprite.svg#icon-send-footer"></use>
             </svg>
-
           </button>
-
-
-
         </form>
-
-
       </div>
-
-
-
-
     </div>
   </footer>
 
 
-
+  <!--MODAL-->
   <div class="backdrop is-hidden" data-modal>
-
     <div class="wrapper-modal">
-
-
-
-
-
-
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
-
           <svg class="svg-close" width="11px" height="11px">
             <use href="./images/sprite.svg#close-btn-modal">
-
-
             </use>
           </svg>
-
         </button>
-
-
         <form class="form" action="#">
-
           <p class="modal-head">Оставьте свои данные, мы вам перезвоним</p>
-
           <label class="label-modal"><span class="label-modal-text">Имя</span>
             <input class="contact-form__input" type="text" name="user-name" required>
             <svg class="modal-form-svg-icon" width="18px" height="18px">
@@ -388,8 +353,6 @@
               </use>
             </svg>
           </label>
-
-
           <label class="label-modal"><span class="label-modal-text">Телефон</span>
             <input class="contact-form__input" type="tel" name="user-tel">
             <svg class="modal-form-svg-icon" width="18px" height="18px">
@@ -397,9 +360,6 @@
               </use>
             </svg>
           </label>
-
-
-
           <label class="label-modal"><span class="label-modal-text">Почта</span>
             <input class="contact-form__input" type="email" name="user-email">
             <svg class="modal-form-svg-icon" width="18px" height="18px">
@@ -407,32 +367,20 @@
               </use>
             </svg>
           </label>
-
-
           <label class="label-modal-area"><span class="label-modal-text-area">Комментарий</span>
             <textarea name="user-message" class="contact-form__message" maxlength="260"
               placeholder="Введите текст"></textarea>
           </label>
-
-
           <input class="input-policy" type="checkbox" name="policy" value="policy" id="check-policy" required>
           <label class="label-policy" for="check-policy">
             <span class="policy-text">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span>
           </label>
-
           <div class="btn-wrapper">
             <button class="contact-form__submit" type="submit">Отправить</button>
           </div>
-
         </form>
-
       </div>
-
-
-
     </div>
-
-
   </div>
   <script src="./js/modal.js"></script>
 </body>
