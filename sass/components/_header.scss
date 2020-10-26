@@ -60,13 +60,13 @@
     bottom: 0;
     left: 0;
     height: 4px;
-    background: $blue;
+    background-color: $blue;
     border-radius: 2px;
   }
 }
 
 .address {
-  & .link {
+  &-link-header {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
@@ -74,21 +74,18 @@
     color: $gray;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
   }
 
-  & .link + .link {
+  &-link-header:last-child {
     margin-left: 50px;
   }
 
-  & .link:hover,
-  & .link:focus {
+  &-link-header:hover,
+  &-link-header:focus {
     color: $blue;
   }
-}
-
-.link-color-header {
-  display: flex;
-  align-items: center;
 }
 
 .active {

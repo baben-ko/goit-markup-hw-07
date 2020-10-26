@@ -1,15 +1,14 @@
-@charset "UTF-8";
-/* Отменяем подчеркивание у ссылки */
+/* Cancel the underscore of the link */
 a {
   text-decoration: none;
 }
 
-/* Убираем маркеры */
+/* We remove the markers */
 li {
   list-style-type: none;
 }
 
-/* Убираем италик с сылок в адресах */
+/* We remove the Italian from the links in the addresses */
 .address {
   font-style: normal;
   display: flex;
@@ -17,8 +16,8 @@ li {
 }
 
 .list {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -30,7 +29,7 @@ img {
   display: block;
 }
 
-/* основной шрифт */
+/* main font */
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -58,7 +57,7 @@ body {
 
 .modal-head {
   margin: 0;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -87,7 +86,7 @@ body {
 .label-modal-text-area {
   display: block;
   margin-bottom: 4px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -99,7 +98,7 @@ body {
 .label-modal-text {
   margin-bottom: 4px;
   display: block;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -157,7 +156,7 @@ body {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -220,8 +219,7 @@ body {
 }
 
 .policy-text {
-  /* outline: 2px solid tomato; */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -230,7 +228,6 @@ body {
   color: #757575;
   display: inline-block;
   margin: 0px;
-  /* margin-bottom: 30px; */
 }
 
 .form {
@@ -251,12 +248,12 @@ input {
 .contact-form__submit {
   width: 200px;
   height: 50px;
-  background: #2196f3;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -338,11 +335,11 @@ input {
   bottom: 0;
   left: 0;
   height: 4px;
-  background: #2196f3;
+  background-color: #2196f3;
   border-radius: 2px;
 }
 
-.address .link {
+.address-link-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -350,20 +347,16 @@ input {
   color: #757575;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
 }
 
-.address .link + .link {
+.address-link-header:last-child {
   margin-left: 50px;
 }
 
-.address .link:hover,
-.address .link:focus {
+.address-link-header:hover, .address-link-header:focus {
   color: #2196f3;
-}
-
-.link-color-header {
-  display: flex;
-  align-items: center;
 }
 
 .active {
@@ -438,7 +431,7 @@ input {
   display: block;
   content: '';
   height: 120px;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
@@ -468,7 +461,7 @@ input {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
@@ -477,7 +470,7 @@ input {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .features-list {
@@ -497,7 +490,7 @@ input {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .list {
@@ -517,14 +510,14 @@ input {
   display: flex;
   width: 100%;
   height: 70px;
-  background: rgba(47, 48, 58, 0.8);
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
 .text-overlay-work {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -538,7 +531,7 @@ input {
 
 /* ===================== TEAM ========================= */
 .team {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .team-title {
@@ -548,7 +541,7 @@ input {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 0;
   padding-top: 94px;
 }
 
@@ -570,12 +563,12 @@ input {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 16px;
-  margin-top: 0px;
+  margin-top: 0;
   text-align: center;
 }
 
 .list .list-team {
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -620,16 +613,15 @@ input {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
-  margin: 0px;
-  padding: 0px;
-  margin-bottom: 50px;
+  margin: 0 0 50px 0;
+  padding: 0;
 }
 
 .clients-list {
   display: flex;
   justify-content: space-between;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .clients-item {
@@ -685,7 +677,7 @@ input {
 }
 
 .footer {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 
 .footer-container {
@@ -739,12 +731,12 @@ input {
 }
 
 .footer-logo {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .footer-list {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -753,7 +745,7 @@ input {
 }
 
 .footer-address:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .footer-left {
@@ -761,10 +753,8 @@ input {
 }
 
 .footer-right h2 {
-  margin: 0;
-  padding: 0;
-  padding-top: 12px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
+  padding: 12px 0 0 0;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -789,10 +779,8 @@ input {
 }
 
 .footer-right-form h2 {
-  margin: 0;
-  padding: 0;
-  padding-top: 12px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
+  padding: 12px 0 0 0;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -805,12 +793,12 @@ input {
   width: 200px;
   height: 50px;
   display: flex;
-  background: #2196f3;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -818,7 +806,6 @@ input {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  padding: 0px;
   color: #ffffff;
   padding: 13px 28px;
 }
@@ -835,8 +822,7 @@ input {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  padding: 0px;
-  padding-left: 16px;
+  padding: 0 0 0 16px;
   color: rgba(255, 255, 255, 0.6);
 }
 /*# sourceMappingURL=main.css.map */

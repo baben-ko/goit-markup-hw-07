@@ -20,7 +20,7 @@
 }
 
 .footer {
-  background: #2f303a;
+  background-color: #2f303a;
 
   &-container {
     display: flex;
@@ -72,19 +72,19 @@
   }
 
   &-logo {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   &-list {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
   }
   &-address {
     margin-bottom: 9px;
   }
   &-address:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   &-left {
@@ -92,10 +92,8 @@
   }
 
   &-right h2 {
-    margin: 0;
-    padding: 0;
-    padding-top: 12px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
+    padding: 12px 0 0 0;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -120,10 +118,8 @@
   }
 
   &-right-form h2 {
-    margin: 0;
-    padding: 0;
-    padding-top: 12px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
+    padding: 12px 0 0 0;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -137,12 +133,12 @@
   width: 200px;
   height: 50px;
   display: flex;
-  background: $blue;
+  background-color: $blue;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  font-family: Roboto;
+  font-family: $main-font;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -150,7 +146,6 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  padding: 0px;
   color: $white;
   padding: 13px 28px;
 }
@@ -167,7 +162,6 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  padding: 0px;
-  padding-left: 16px;
+  padding: 0 0 0 16px;
   color: rgba(255, 255, 255, 0.6);
 }
